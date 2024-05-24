@@ -1,9 +1,8 @@
 services:
   - type: web
     name: coinbase
-    env: node
-    buildCommand: npm install
-    startCommand: npm start
+    env: docker
+    dockerfilePath: Dockerfile
     envVars:
       - key: PORT
         value: "3300"
