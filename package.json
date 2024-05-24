@@ -1,0 +1,13 @@
+{
+  "name": "coinbase",
+  "version": "1.0.0",
+  "main": "index.js",
+	"author": "Endopay",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "playwright": "^1.40.1"
+  }
+}
